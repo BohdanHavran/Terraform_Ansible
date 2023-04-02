@@ -1,0 +1,21 @@
+---
+- name: Fetch a linux distro name/version
+  debug:
+    msg:
+    - "Hostname : {{ ansible_hostname }}"
+    - "Linux distro name/version: {{ ansible_distribution }}/{{ ansible_distribution_version }}"
+
+- name: Install Apache
+  package:
+    name: "{{ packages[ansible_distribution] }}"
+    state: latest
+
+- name: Copy website
+  ansible.builtin.copy:
+      src: ./
+      dest: /var/www/html/
+
+- name: Restart Apache
+  service:
+    name: "{{ packages[ansible_distribution] }}"
+    state: restarted

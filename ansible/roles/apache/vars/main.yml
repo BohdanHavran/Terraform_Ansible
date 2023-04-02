@@ -1,0 +1,4 @@
+packages: {
+           Ubuntu: apache2,
+           RedHat: httpd
+          }
