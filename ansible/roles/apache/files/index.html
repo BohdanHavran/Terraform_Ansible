@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+	<title>Document</title>
+</head>
+<body>
+	<div id="mySidenav" class="sidenav d-flex flex-column flex-shrink-0 shadow1" style="background: #03a9f5; padding-top: 20px;">
+		<div class="rowsss mb-3">
+			<img src="assets/img/images.png" class="bi me-2" width="100" height="100" style="margin-bottom: 15px;">
+			<text aria-label="Bootstrap" id="text" class="text5">Hello</text>
+			<div class="d-flex mb-2">
+				<div id="text1" style="display: inline;" class="d-flex">
+					<img src="assets/img/metka.png" class="me-1 ms-0 mt-1" width="18" height="18" >
+					<text aria-label="Bootstrap" class="text1">Україна,Львів</text>
+				</div>
+			</div>
+			<text id="text2" aria-label="Bootstrap" class="text1 ps-2 pe-2 mb-1 student">Student</text>
+		</div>
+	    <ul class="nav nav-pills flex-column mb-auto left">
+	     <a href="index.html" class="d-flex visited" style="padding-left: 28px;">
+	     	<img src="assets/img/house.png" class="me-1 ms-0 " width="35" height="35" ><text class="textleft">Dashboard</text>
+	     </a>
+	     <a href="#" class="d-flex">
+	     	<img src="assets/img/celendar.png" class="me-1 ms-0" width="35" height="35" ><text class="textleft">Celendar</text>
+	     </a>
+	     <a href="#" class="d-flex">
+	     	<img src="assets/img/announcement.png" class="me-1 ms-0" width="35" height="35" ><text class="textleft">Announcement</text>
+	     </a>
+	     <a href="#" class="d-flex">
+	     	<img src="assets/img/courses.png" class="me-1 ms-0" width="35" height="35" ><text class="textleft">Courses</text>
+	     </a>
+	     <a href="#" class="d-flex">
+	     	<img src="assets/img/messages.png" class="me-1 ms-0" width="35" height="35" ><text class="textleft">Messages</text>
+	     </a>
+	     <a href="#" class="d-flex">
+	     	<img src="assets/img/forum.png" class="me-1 ms-0" width="35" height="35" ><text class="textleft">Forum</text>
+	     </a>
+	    </ul>
+	    <div class="d-flex">
+	      <a href="#" class="d-flex align-items-center">
+	        <img src="assets/img/gear.png" class="mb-2 me-1" width="35" height="35">
+	      </a>
+	      <a id="off" href="#" class="d-flex align-items-center">
+	      	<img src="assets/img/off.png" class="mb-2 me-1" width="35" height="35">
+	      </a>
+	    </div>
+	  
+	</div>
+	<div id="header">
+		<div class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-2 p-3 border-bottom" style="background: #0288d1">
+	      	<img src="assets/img/Hamburger_icon.svg.png" class="bi me-4 ms-2 mb-1" width="30" height="30" onclick="openNav()"> 
+	      	<h3 aria-label="Bootstrap" style="color: white;margin-right: auto;">Dashboard</h3>
+	      	<div class="d-flex">
+	      		<img src="assets/img/Nexapp.png" class="bi me-2 ms-2" width="40" height="40">
+	      		<h3 aria-label="Bootstrap" style="color: white;">NEXAPP</h3>
+	      	</div>
+	      	
+	    </div>
+	</div>	
+    
+    <div id="main">
+    	<div class="mb-4 d-flex">
+    		<div class="list-group shadow1 me-4 announcemnent">
+			  	<div class="list-group-item" style="height: 70px;">
+			    	<div class="d-flex w-100 justify-content-between" style="width: 390px;">
+			      		<h5 class="mb-1 text2">Announcemnent</h5>      
+			    	</div>
+			    	<p class="d-flex mb-1 text2" style="width: 390px;">From your principal or Teachers</p>
+			    	<div class="d-flex announcemnent1">
+			    		<div class="mb-1 text2 announcemnent2">
+			    			<p class="right1 ps-2 mb-0 mt-3">Principal</p>
+			    			<p class="right2 ps-2 mb-0 mt-3 ms-3">Teacher</p>
+			    		</div>
+
+			    	</div>
+			  	</div>
+			  	<div style="overflow: auto;">
+			  		<div class="d-flex list-group-item ps-2" style="border-left-width: 5px;border-left-color: #03a9f5;">
+				  		<div class="me-2 view">
+				  			<p class="mb-0"><b>12459</b></p>
+				  			<img src="assets/img/eye1.png" class="me-0 mt-0 ms-0" width="30" height="15" >
+				  		</div>
+				    	<div class="w-100 mt-2 justify-content-between">
+				      		<h5 class="messageslist"><b>MARRY CHRISMAS EVERYONE AND DAYS OFF SCHEDULE</b></h5>      
+				      		<p class="messageslist">Thanks you everyone for all of your supports. Please notice days off schedule</p>
+				    	</div>
+				  	</div>
+				  	<div class="d-flex list-group-item ps-2" style="border-left-width: 5px;border-left-color: #e5c735;">
+				  		<div class="me-2 view">
+				  			<p class="mb-0"><b>5362</b></p>
+				  			<img src="assets/img/eye1.png" class="me-0 mt-0 ms-0" width="30" height="15" >
+				  		</div>
+				    	<div class="w-100 mt-2 justify-content-between">
+				      		<h5 class="messageslist"><b>HISTORY OF EARTH ASSIGNMENT DETAILS</b></h5>      
+				      		<p class="messageslist">Hello Student, remember we have a small assignment before Christmas break</p>
+				    	</div>
+				  	</div>
+				  	<div class="d-flex list-group-item ps-2" style="border-left-width: 5px;border-left-color: #03a9f5;">
+				  		<div class="me-2 view">
+				  			<p class="mb-0"><b>2287</b></p>
+				  			<img src="assets/img/eye1.png" class="me-0 mt-0 ms-0" width="30" height="15" >
+				  		</div>
+				    	<div class="w-100 mt-2 justify-content-between">
+				      		<h5 class="messageslist"><b>INTRODUCTION TO GEOGRAPHY TEST WILL BE MOVED TO NOV 27TH</b></h5>      
+				      		<p class="messageslist">Sorry for the delay but I have some problem with the test which mean</p>
+				    	</div>
+				  	</div>
+				  	<div class="d-flex list-group-item ps-2" style="border-left-width: 5px;border-left-color: #e5c735;">
+				  		<div class="me-2 view">
+				  			<p class="mb-0"><b>12459</b></p>
+				  			<img src="assets/img/eye1.png" class="me-0 mt-0 ms-0" width="30" height="15" >
+				  		</div>
+				    	<div class="w-100 mt-2 justify-content-between">
+				      		<h5 class="messageslist"><b>MARRY CHRISMAS EVERYONE AND DAYS OFF SCHEDULE</b></h5>      
+				      		<p class="messageslist">Thanks you everyone for all of your supports. Please notice days off schedule</p>
+				    	</div>
+				  	</div>
+			  	</div>
+			</div>
+
+			<div class="calendar shadow1"></div>
+    	</div>
+
+    	<div class="d-flex">
+    		<div class="list-group shadow1 me-4" style="width: 400px;">
+			  	<div class="list-group-item" style="background: #03a9f5;height: 70px;">
+			    	<div class="d-flex w-100 justify-content-between">
+			      		<h5 class="mb-1 text1">Messages</h5>
+			    	</div>
+			    	<button class="button pos"><img class="buttonimg" src="assets/img/plus.png"></button>
+			    	<p class="mb-1 text1">Current Convertions</p>
+			  	</div>
+			  	<div class="d-flex list-group-item messages" style="border-left-width: 5px;border-left-color: #f2504e;padding-left: 12px;">
+			  		<img src="assets/img/avatar5.png" class="me-1 ms-0 round" width="50" height="50" >
+			    	<div class="w-100 justify-content-between">
+			      		<h5 class="messageslist"><b>Mr.Sheldon Cooper</b></h5>      
+			      		<p class="messageslist">What is wrong with your homework?</p>
+			      		<small class="text-muted messageslist">Just now</small>
+			    	</div>
+			  	</div>
+			  	<div class="d-flex list-group-item messages">
+				  	<img src="assets/img/avatar5.png" class="me-1 ms-0 round" width="50" height="50" >
+				    <div class="w-100 justify-content-between">
+			      		<h5 class="messageslist"><b>Jason Bourne</b></h5>      
+			      		<p class="messageslist">Hey dude! What's the plan?</p>
+			      		<small class="text-muted messageslist">2 hours ago</small>
+			    	</div>
+			  	</div>
+			  	<div class="d-flex list-group-item messages">
+			  		<img src="assets/img/avatar5.png" class="me-1 ms-0 round" width="50" height="50" >
+			    	<div class="w-100 justify-content-between">
+			      		<h5 class="messageslist"><b>Mr.Barney Stinson</b></h5>      
+			      		<p class="messageslist">Have you tried my formula&</p>
+			      		<small class="text-muted messageslist">1 day ago</small>
+			    	</div>
+			  	</div>
+			  	<div class="d-flex list-group-item messages">
+			  		<img src="assets/img/avatar5.png" class="me-1 ms-0 round" width="50" height="50" >
+			    	<div class="w-100 justify-content-between">
+			      		<h5 class="messageslist"><b>Jesse Pinkman</b></h5>      
+			      		<p class="messageslist">I finished it 2 days ago</p>
+			      		<small class="text-muted messageslist">1 day ago</small>
+			    	</div>
+			  	</div>
+			</div>
+
+			<div class="list-group shadow1 me-4" style="width: 400px;">
+			  	<div class="list-group-item" style="background: #03a9f5;height: 70px;">
+			    	<div class="d-flex w-100 justify-content-between">
+			      		<h5 class="mb-1 text1">Courses</h5>
+			    	</div>
+			    	<button class="button pos"><img class="buttonimg" src="assets/img/plus.png"></button>
+			    	<p class="mb-1 text1">Your Current Courses And Process</p>
+			  	</div>
+			  	<div class="d-flex list-group-item messages ">
+				  	<div class="procent1">
+				  		<p class="mb-0" style="text-align: center;"><b>100%</b></p>
+				  		<div class="rotate d-flex">
+				  			<div class="h-100 d-inline-block" style="width: 55px; background-color: #e5c735;">
+					    	</div>
+				  		</div>
+					</div>
+					<div class="w-100 justify-content-between procent">
+					    <h5 class="messageslist"><b>History of the Earth</b></h5>      
+					    <p class="messageslist">Teacher: Mr.Jason Boume</p>
+					</div>
+			  	</div>
+			  	<div class="d-flex list-group-item messages">
+				  	<div class="procent1">
+				  		<p class="mb-0 pos3" style="text-align: center;"><b>75%</b></p>
+				  		<div class="rotate d-flex">
+				  			<div class="h-75 d-inline-block" style="width: 55px; background-color: #24c6db; ">
+					  		</div>
+				  		</div>
+					</div>
+				    <div class="w-100 justify-content-between procent">
+				      	<h5 class="messageslist"><b>Introduction to Geography</b></h5>      
+				      	<p class="messageslist">Teacher: Mr.Barney Stinson</p>
+				    </div>
+			  	</div>
+			  	<div class="d-flex list-group-item messages">
+				  	<div class="procent1">
+				  		<p class="mb-0 pos2" style="text-align: center;"><b>50%</b></p>
+					  	<div class="rotate d-flex">
+				  			<div class="h-50 d-inline-block" style="width: 55px; background-color: #24c6db; ">
+					  		</div>
+				  		</div>
+					</div>
+				    <div class="w-100 justify-content-between procent">
+				      	<h5 class="messageslist"><b>Math Formative Assessment</b></h5>      
+				      	<p class="messageslist">Teacher: Ms.Charlie Theron</p>
+				    </div>
+			 	</div>
+			  	<div class="d-flex list-group-item messages">
+				  	<div class="procent1">
+				  		<p class="mb-0 pos1" style="text-align: center;"><b>25%</b></p>
+				  		<div class="rotate d-flex">
+						  	<div class="h-25 d-inline-block" style="width: 55px; background-color: #f2504e; ">
+						  	</div>
+						</div>
+					</div>
+				    <div class="w-100 justify-content-between procent">
+				      	<h5 class="messageslist"><b>The Special Theory of Relativity</b></h5>      
+				      	<p class="messageslist">Teacher: Mr.Matt Damon</p>
+				    </div>
+			  	</div>
+			</div>
+
+			<div class="event">
+				<div class="d-flex shadow1 mb-4">
+					<div>
+						<p class="mb-0 p-1 list-group-item" style="background: #03a9f5; color: white;border-bottom: 1px solid white;">11</p>
+						<p class="mb-0 p-1 list-group-item"style="background: #03a9f5; color: white;">14</p>
+					</div>
+					<div class="justify-content-between event1">
+				      	<h5 class="messageslist"><b>History of the Earth Assigment</b></h5>      
+				      	<small class="text-muted hour">09h30</small>
+				    </div>
+				</div>
+				<div class="d-flex shadow1 mb-4">
+					<div>
+						<p class="mb-0 p-1 list-group-item" style="background: #e5c735; color: white;border-bottom: 1px solid white;">11</p>
+						<p class="mb-0 p-1 list-group-item" style="background: #e5c735; color: white;">27</p>
+					</div>
+					<div class=" justify-content-between event1">
+				      	<h5 class="messageslist"><b>Introduction to Geography Test</b></h5>      
+				      	<small class="text-muted hour">09h30</small>
+				      	<hr class="mt-2">
+				      	<h5 class="messageslist"><b>Math Formative Assessment Test</b></h5>      
+				      	<small class="text-muted hour">14h30</small>
+				    </div>
+				</div>
+				<div class="d-flex shadow1 mb-4">
+					<div>
+						<p class="mb-0 p-1 list-group-item" style="background: #1fc9e0; color: white;border-bottom: 1px solid white;">11</p>
+						<p class="mb-0 p-1 list-group-item"style="background: #1fc9e0; color: white;">29</p>
+					</div>
+					<div class="justify-content-between event1">
+				      	<h5 class="messageslist"><b>History of the Earth Final Test</b></h5>      
+				      	<small class="text-muted hour">14h30</small>
+				    </div>
+				</div>
+			</div>
+
+    	</div>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+	<script type="text/javascript">
+		document.getElementById("off").style.marginLeft = 300 - (document.getElementById("off").offsetWidth * 2) + "px";
+		document.getElementById("text").style.marginLeft = (300 - document.getElementById("text").offsetWidth) / 2 + "px";
+		document.getElementById("text1").style.marginLeft = (300 - document.getElementById("text1").offsetWidth) / 2 + "px";
+		document.getElementById("text2").style.marginLeft = (300 - document.getElementById("text2").offsetWidth) / 2 + "px";
+		function openNav() {
+			if (document.getElementById("mySidenav").style.width == "0px" ) {
+				document.getElementById("mySidenav").style.width = "300px";
+		  		document.getElementById("main").style.marginLeft = "300px";
+		  		document.getElementById("header").style.marginLeft = "300px";
+			}
+			else if (document.getElementById("mySidenav").style.width == 0 ) {
+				document.getElementById("mySidenav").style.width = "300px";
+		  		document.getElementById("main").style.marginLeft = "300px";
+		  		document.getElementById("header").style.marginLeft = "300px";
+			}
+			else{
+				document.getElementById("mySidenav").style.width = 0;
+		 		document.getElementById("main").style.marginLeft = 0;
+		  		document.getElementById("header").style.marginLeft = 0;
+			}	  
+		}
+		function CalendarControl() {
+		    const calendar = new Date();
+		    const calendarControl = {
+		      localDate: new Date(),
+		      prevMonthLastDate: null,
+		      calWeekDays: ["M", "T", "W", "T", "F", "S","S"],
+		      calMonthName: [
+		        "Jan",
+		        "Feb",
+		        "Mar",
+		        "Apr",
+		        "May",
+		        "Jun",
+		        "Jul",
+		        "Aug",
+		        "Sep",
+		        "Oct",
+		        "Nov",
+		        "Dec"
+		      ],
+		      daysInMonth: function (month, year) {
+		        return new Date(year, month, 0).getDate();
+		      },
+		      firstDay: function () {
+		        return new Date(calendar.getFullYear(), calendar.getMonth(), 1);
+		      },
+		      lastDay: function () {
+		        return new Date(calendar.getFullYear(), calendar.getMonth() + 1, 0);
+		      },
+		      firstDayNumber: function () {
+		        return calendarControl.firstDay().getDay();
+		      },
+		      lastDayNumber: function () {
+		        return calendarControl.lastDay().getDay();
+		      },
+		      getPreviousMonthLastDate: function () {
+		        let lastDate = new Date(
+		          calendar.getFullYear(),
+		          calendar.getMonth(),
+		          0
+		        ).getDate();
+		        return lastDate;
+		      },
+		      navigateToPreviousMonth: function () {
+		        calendar.setMonth(calendar.getMonth() - 1);
+		        calendarControl.attachEventsOnNextPrev();
+		      },
+		      navigateToNextMonth: function () {
+		        calendar.setMonth(calendar.getMonth() + 1);
+		        calendarControl.attachEventsOnNextPrev();
+		      },
+		      navigateToCurrentMonth: function () {
+		        let currentMonth = calendarControl.localDate.getMonth();
+		        let currentYear = calendarControl.localDate.getFullYear();
+		        calendar.setMonth(currentMonth);
+		        calendar.setYear(currentYear);
+		        calendarControl.attachEventsOnNextPrev();
+		      },
+		      displayYear: function () {
+		        let yearLabel = document.querySelector(".calendar .calendar-year-label");
+		        yearLabel.innerHTML = calendar.getFullYear();
+		      },
+		      displayMonth: function () {
+		        let monthLabel = document.querySelector(
+		          ".calendar .calendar-month-label"
+		        );
+		        monthLabel.innerHTML = calendarControl.calMonthName[calendar.getMonth()];
+		      },
+		      selectDate: function (e) {
+		        console.log(
+		          `${e.target.textContent} ${
+		            calendarControl.calMonthName[calendar.getMonth()]
+		          } ${calendar.getFullYear()}`
+		        );
+		      },
+		      plotSelectors: function () {
+		        document.querySelector(
+		          ".calendar"
+		        ).innerHTML += `<div class="calendar-inner"><div class="calendar-controls">
+		          <div class="calendar-prev"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><path fill="#666" d="M88.2 3.8L35.8 56.23 28 64l7.8 7.78 52.4 52.4 9.78-7.76L45.58 64l52.4-52.4z"/></svg></a></div>
+		          <div class="calendar-year-month">
+		          <div class="calendar-month-label"></div>
+		          <div>-</div>
+		          <div class="calendar-year-label"></div>
+		          </div>
+		          <div class="calendar-next"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><path fill="#666" d="M38.8 124.2l52.4-52.42L99 64l-7.77-7.78-52.4-52.4-9.8 7.77L81.44 64 29 116.42z"/></svg></a></div>
+		          </div>
+		          <div class="calendar-body"></div></div>`;
+		      },
+		      plotDayNames: function () {
+		        for (let i = 0; i < calendarControl.calWeekDays.length; i++) {
+		          document.querySelector(
+		            ".calendar .calendar-body"
+		          ).innerHTML += `<div>${calendarControl.calWeekDays[i]}</div>`;
+		        }
+		      },
+		      plotDates: function () {
+		        document.querySelector(".calendar .calendar-body").innerHTML = "";
+		        calendarControl.plotDayNames();
+		        calendarControl.displayMonth();
+		        calendarControl.displayYear();
+		        let count = 1;
+		        let prevDateCount = 0;
+		  
+		        calendarControl.prevMonthLastDate = calendarControl.getPreviousMonthLastDate();
+		        let prevMonthDatesArray = [];
+		        let calendarDays = calendarControl.daysInMonth(
+		          calendar.getMonth() + 1,
+		          calendar.getFullYear()
+		        );
+		        // dates of current month
+		        for (let i = 1; i < calendarDays; i++) {
+		          if (i < calendarControl.firstDayNumber()) {
+		            prevDateCount += 1;
+		            document.querySelector(
+		              ".calendar .calendar-body"
+		            ).innerHTML += `<div class="prev-dates"></div>`;
+		            prevMonthDatesArray.push(calendarControl.prevMonthLastDate--);
+		          } else {
+		            document.querySelector(
+		              ".calendar .calendar-body"
+		            ).innerHTML += `<div class="number-item" data-num=${count}><a class="dateNumber" href="#"><b>${count++}</b></a></div>`;
+		          }
+		        }
+		        //remaining dates after month dates
+		        for (let j = 0; j < prevDateCount + 1; j++) {
+		          document.querySelector(
+		            ".calendar .calendar-body"
+		          ).innerHTML += `<div class="number-item" data-num=${count}><a class="dateNumber" href="#"><b>${count++}</b></a></div>`;
+		        }
+		        calendarControl.highlightToday();
+		        calendarControl.plotPrevMonthDates(prevMonthDatesArray);
+		        calendarControl.plotNextMonthDates();
+		      },
+		      attachEvents: function () {
+		        let prevBtn = document.querySelector(".calendar .calendar-prev a");
+		        let nextBtn = document.querySelector(".calendar .calendar-next a");
+		        let todayDate = document.querySelector(".calendar .calendar-today-date");
+		        let dateNumber = document.querySelectorAll(".calendar .dateNumber");
+		        prevBtn.addEventListener(
+		          "click",
+		          calendarControl.navigateToPreviousMonth
+		        );
+		        nextBtn.addEventListener("click", calendarControl.navigateToNextMonth);
+		        for (var i = 0; i < dateNumber.length; i++) {
+		            dateNumber[i].addEventListener(
+		              "click",
+		              calendarControl.selectDate,
+		              false
+		            );
+		        }
+		      },
+		      highlightToday: function () {
+		        let currentMonth = calendarControl.localDate.getMonth() + 1;
+		        let changedMonth = calendar.getMonth() + 1;
+		        let currentYear = calendarControl.localDate.getFullYear();
+		        let changedYear = calendar.getFullYear();
+		        if (
+		          currentYear === changedYear &&
+		          currentMonth === changedMonth &&
+		          document.querySelectorAll(".number-item")
+		        ) {
+		          document
+		            .querySelectorAll(".number-item")
+		            [calendar.getDate() - 1].classList.add("calendar-today");
+		        }
+		      },
+		      plotPrevMonthDates: function(dates){
+		        dates.reverse();
+		        for(let i=0;i<dates.length;i++) {
+		            if(document.querySelectorAll(".prev-dates")) {
+		                document.querySelectorAll(".prev-dates")[i].textContent = dates[i];
+		            }
+		        }
+		      },
+		      plotNextMonthDates: function(){
+		       let childElemCount = document.querySelector('.calendar-body').childElementCount;
+		       //7 lines
+		       if(childElemCount > 42 ) {
+		           let diff = 49 - childElemCount;
+		           calendarControl.loopThroughNextDays(diff);
+		       }
+
+		       //6 lines
+		       if(childElemCount > 35 && childElemCount <= 42 ) {
+		        let diff = 42 - childElemCount;
+		        calendarControl.loopThroughNextDays(42 - childElemCount);
+		       }
+
+		      },
+		      loopThroughNextDays: function(count) {
+		        if(count > 0) {
+		            for(let i=1;i<=count;i++) {
+		                document.querySelector('.calendar-body').innerHTML += `<div class="next-dates">${i}</div>`;
+		            }
+		        }
+		      },
+		      attachEventsOnNextPrev: function () {
+		        calendarControl.plotDates();
+		        calendarControl.attachEvents();
+		      },
+		      init: function () {
+		        calendarControl.plotSelectors();
+		        calendarControl.plotDates();
+		        calendarControl.attachEvents();
+		      }
+		    };
+		    calendarControl.init();
+		  }
+		  
+		  const calendarControl = new CalendarControl();
+
+	</script>
+</body>
+</html>
